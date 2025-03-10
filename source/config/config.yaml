@@ -1,0 +1,8 @@
+Service_name: "Brazil_states_map"
+configuration_parameters:
+  - shapefile_path: "data/lml_unidade_federacao_a.shp"
+  - database_host: # Connection type
+  - database_port: # Database connection port
+  - database_name: # Database name
+  - database_user: # Database username
+  - database_password: # Database password
