@@ -40,7 +40,7 @@
     </style>
 </head>
 <body>
-    <h1>Selecione um Estado do Brasil</h1>
+    <h1>Selecione o estado do Brasil em que você reside</h1>
     <select id="estadoSelect">
         <option value="">Selecione um estado</option>
     </select>
@@ -90,7 +90,7 @@
             let estado = document.getElementById('estadoSelect').value;
             
             if (nome.trim() === "" || estado.trim() === "") {
-                alert("Por favor, digite seu nome e selecione um estado.");
+                alert("Por favor, digite seu nome e selecione o estado que você mora.");
                 return;
             }
 
