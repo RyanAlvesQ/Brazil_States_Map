@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F5EDED;
+    margin: 70px
+}
+
+
+.infos-topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7FA1C3;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#button {
+    height: 40px;
+    width: 65px;
+    background-color: #7FA1C3;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+#nomeUsuario {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+    margin: 10px
+}
+
+#map {
+    height: 75vh;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
