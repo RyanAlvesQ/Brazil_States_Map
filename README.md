@@ -1,44 +1,45 @@
-# 🌍 Projeto: Mapa Interativo com Flask e Leaflet
+# 🌍 Project: Interactive Map with Flask and Leaflet  
 
-Este projeto exibe um mapa interativo onde o usuário pode selecionar um estado do Brasil e inserir seu nome. Os dados são enviados para um servidor Flask, que os armazena em um banco de dados PostgreSQL.
+This project displays an interactive map where users can select a state in Brazil and enter their name. The data is sent to a Flask server, which stores it in a PostgreSQL database.  
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀 How to Run the Project
 
-### 1️⃣ **Instalar Dependências**
+### 1️⃣ **Install Dependencies**
 
-Certifique-se de ter o Python instalado (versão 3.11 ou superior).  
-No terminal, crie uma venv execute:
+Make sure you have Python installed (version 3.11 or later).  
+In the terminal, create a virtual environment and run:  
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Configurar o Banco de Dados
+### 2️⃣ **Configure the Database**
 
-Configure os parâmetros no arquivo config/config.yaml (como host, usuário e senha do PostgreSQL).
-Certifique-se de que o seu banco de dados PostgreSQL possua o database "states_map" e que esteja rodando.
+Set the parameters in the config/config.yaml file (such as host, user, and PostgreSQL password).
+Ensure that your PostgreSQL database contains the "states_map" database and is running.
 
-### 3️⃣ Executar o Servidor Flask
+### 3️⃣ **Run the Flask Server**
 
-Na raiz do projeto (source/), execute:
+In the project root (source/), run:
 ```bash
 python app.py
 ```
-O servidor estará disponível em:
+The server will be available at:
 👉 http://127.0.0.1:5000
 
-### 4️⃣ Executar testes 
+### 4️⃣ **Executar testes** 
 
-Na raiz do projeto (source/), execute:
+In the project root (source/), run:
+```bash
 pytest test/test_app.py
-
+```
 ---
 
-## 🎨 Tecnologias Utilizadas
+## 🎨 Technologies Used
 
    - Backend: Flask (Python)
    - Frontend: HTML, CSS, JavaScript, Leaflet.js
-   - Banco de Dados: PostgreSQL
-   - Outras Bibliotecas: Pandas, GeoPandas
+   - Database: PostgreSQL
+   - Other Libraries: Pandas, GeoPandas
