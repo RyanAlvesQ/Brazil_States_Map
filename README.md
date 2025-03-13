@@ -29,7 +29,7 @@ python app.py
 The server will be available at:
 👉 http://127.0.0.1:5000
 
-### 4️⃣ **Executar testes** 
+### 4️⃣ **Run tests** 
 
 In the project root (source/), run:
 ```bash
